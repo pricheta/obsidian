@@ -1,11 +1,12 @@
-### Install package
-sudo pacman -S {package_name}
+##### Commands
+###### Install package
+`sudo pacman -S {package_name}
 
-### Remove package
-sudo pacman -Rs {package_name}
+###### Remove package
+`sudo pacman -Rs {package_name}
 
-### Get list of orphaned packages
-sudo pacman -Qdtq
+###### Get list of orphaned packages
+`sudo pacman -Qdtq
 
-### Remove orphaned packages
-sudo pacman -Rns $(pacman -Qdtq)
+###### Remove orphaned packages
+`sudo pacman -Rns $(pacman -Qdtq)
