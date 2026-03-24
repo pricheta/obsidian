@@ -1,3 +1,3 @@
 ##### Commands
-###### Save credentials locally
-`git config --global credential.helper manager
+###### Save credentials locally in current directory
+`git config --global credential.helper store`
